@@ -7,7 +7,7 @@ git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.g
 #Design Config
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
 #第三方源
-git clone --depth=1 --single-branch  https://github.com/kenzok8/small-package
+git clone --depth=1 --single-branch  https://github.com/kenzok8/small-package.git
 #istore
 git clone --depth=1 --single-branch https://github.com/linkease/istore
 git clone --depth=1 --single-branch https://github.com/linkease/nas-packages-luci
