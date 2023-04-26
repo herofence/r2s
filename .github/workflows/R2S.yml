@@ -122,7 +122,7 @@ jobs:
           tag_name: ${{env.OWRT_TARGET}}_OWRT_${{env.OWRT_DATE}}
           files: ./lede/upload/*.*
           body: |
-            此固件包含仅passwall无USB驱动
+            passwall、USB偿WIFI驱动、docker、istore
             设备：${{env.OWRT_TYPE}}
             地址：${{env.OWRT_IP}}
             密码：password
