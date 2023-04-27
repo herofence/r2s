@@ -16,7 +16,7 @@ permissions: write-all
 
 jobs: #执行项目
   build_openwrt:
-    name: Build Firmware
+    name: R2S固件云编译
     runs-on: ubuntu-latest
     steps: #步骤
       - name: 初始化环境
