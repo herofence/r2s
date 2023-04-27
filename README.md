@@ -1,4 +1,4 @@
-# openwrt-rockchip-armv8-friendlyarm_nanopi-r2s-squashfs
+# openwrt-rockchip-armv8-friendlyarm_nanopi-r2s
 .github/workflow      代码仓库
 
 Config/General.txt    增加/删除插件设置
