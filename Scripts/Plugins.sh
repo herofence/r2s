@@ -10,5 +10,5 @@ git clone --depth=1 --single-branch https://github.com/jerrykuku/luci-app-argon-
 #Design Theme
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-theme-design.git
 git clone --depth=1 --single-branch https://github.com/gngpp/luci-app-design-config.git
-#Open Clash
-git clone --depth=1 --single-branch --branch "dev" https://github.com/vernesong/OpenClash.git
+#Passwall
+git clone --depth=1 --single-branch https://github.com/kenzok8/small-package.git
