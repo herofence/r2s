@@ -10,7 +10,7 @@ env:
   OWRT_IP: 192.168.2.1  #默认IP地址
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
   LEDE_URL: https://github.com/openfros/fros.git
-  LIST_URL: https://raw.githubusercontent.com/herofence/r2s/master/Depends.txt
+  LIST_URL: $GITHUB_WORKSPACE/Depends.txt
 
 permissions: write-all
 
