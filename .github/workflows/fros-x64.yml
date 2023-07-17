@@ -9,14 +9,14 @@ env:
   OWRT_THEME: design  #默认主题
   OWRT_IP: 192.168.2.1  #默认IP地址
   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-  LEDE_URL: https://github.com/coolsnowwolf/lede.git
+  LEDE_URL: https://github.com/openfros/fros.git
   LIST_URL: https://raw.githubusercontent.com/herofence/r2s/master/Depends.txt
 
 permissions: write-all
 
 jobs: #执行项目
   build_openwrt:
-    name: R2S固件云编译
+    name: fros-x64固件云编译
     runs-on: ubuntu-latest
     steps: #步骤
       - name: 初始化环境
